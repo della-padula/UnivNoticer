@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE53D0CB23F9395400AEFCE2 /* UnivNoticer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE53D0C123F9395400AEFCE2 /* UnivNoticer.framework */; };
+		DE53D0D023F9395400AEFCE2 /* UnivNoticerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53D0CF23F9395400AEFCE2 /* UnivNoticerTests.swift */; };
+		DE53D0D223F9395400AEFCE2 /* UnivNoticer.h in Headers */ = {isa = PBXBuildFile; fileRef = DE53D0C423F9395400AEFCE2 /* UnivNoticer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE53D0DC23F9396B00AEFCE2 /* CommonProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53D0DB23F9396B00AEFCE2 /* CommonProperty.swift */; };
+		DE53D0DE23F93A9500AEFCE2 /* SoongsilUniv.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE53D0DD23F93A9500AEFCE2 /* SoongsilUniv.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE53D0CC23F9395400AEFCE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE53D0B823F9395400AEFCE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE53D0C023F9395400AEFCE2;
+			remoteInfo = UnivNoticer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE53D0C123F9395400AEFCE2 /* UnivNoticer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UnivNoticer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE53D0C423F9395400AEFCE2 /* UnivNoticer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnivNoticer.h; sourceTree = "<group>"; };
+		DE53D0C523F9395400AEFCE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE53D0CA23F9395400AEFCE2 /* UnivNoticerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnivNoticerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE53D0CF23F9395400AEFCE2 /* UnivNoticerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnivNoticerTests.swift; sourceTree = "<group>"; };
+		DE53D0D123F9395400AEFCE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE53D0DB23F9396B00AEFCE2 /* CommonProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonProperty.swift; sourceTree = "<group>"; };
+		DE53D0DD23F93A9500AEFCE2 /* SoongsilUniv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoongsilUniv.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE53D0BE23F9395400AEFCE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE53D0C723F9395400AEFCE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE53D0CB23F9395400AEFCE2 /* UnivNoticer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE53D0B723F9395400AEFCE2 = {
+			isa = PBXGroup;
+			children = (
+				DE53D0C323F9395400AEFCE2 /* UnivNoticer */,
+				DE53D0CE23F9395400AEFCE2 /* UnivNoticerTests */,
+				DE53D0C223F9395400AEFCE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE53D0C223F9395400AEFCE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE53D0C123F9395400AEFCE2 /* UnivNoticer.framework */,
+				DE53D0CA23F9395400AEFCE2 /* UnivNoticerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE53D0C323F9395400AEFCE2 /* UnivNoticer */ = {
+			isa = PBXGroup;
+			children = (
+				DE53D0C423F9395400AEFCE2 /* UnivNoticer.h */,
+				DE53D0C523F9395400AEFCE2 /* Info.plist */,
+				DE53D0DB23F9396B00AEFCE2 /* CommonProperty.swift */,
+				DE53D0DD23F93A9500AEFCE2 /* SoongsilUniv.swift */,
+			);
+			path = UnivNoticer;
+			sourceTree = "<group>";
+		};
+		DE53D0CE23F9395400AEFCE2 /* UnivNoticerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE53D0CF23F9395400AEFCE2 /* UnivNoticerTests.swift */,
+				DE53D0D123F9395400AEFCE2 /* Info.plist */,
+			);
+			path = UnivNoticerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DE53D0BC23F9395400AEFCE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE53D0D223F9395400AEFCE2 /* UnivNoticer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DE53D0C023F9395400AEFCE2 /* UnivNoticer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE53D0D523F9395400AEFCE2 /* Build configuration list for PBXNativeTarget "UnivNoticer" */;
+			buildPhases = (
+				DE53D0BC23F9395400AEFCE2 /* Headers */,
+				DE53D0BD23F9395400AEFCE2 /* Sources */,
+				DE53D0BE23F9395400AEFCE2 /* Frameworks */,
+				DE53D0BF23F9395400AEFCE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnivNoticer;
+			productName = UnivNoticer;
+			productReference = DE53D0C123F9395400AEFCE2 /* UnivNoticer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE53D0C923F9395400AEFCE2 /* UnivNoticerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE53D0D823F9395400AEFCE2 /* Build configuration list for PBXNativeTarget "UnivNoticerTests" */;
+			buildPhases = (
+				DE53D0C623F9395400AEFCE2 /* Sources */,
+				DE53D0C723F9395400AEFCE2 /* Frameworks */,
+				DE53D0C823F9395400AEFCE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE53D0CD23F9395400AEFCE2 /* PBXTargetDependency */,
+			);
+			name = UnivNoticerTests;
+			productName = UnivNoticerTests;
+			productReference = DE53D0CA23F9395400AEFCE2 /* UnivNoticerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE53D0B823F9395400AEFCE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = TaeinKim;
+				TargetAttributes = {
+					DE53D0C023F9395400AEFCE2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					DE53D0C923F9395400AEFCE2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DE53D0BB23F9395400AEFCE2 /* Build configuration list for PBXProject "UnivNoticer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE53D0B723F9395400AEFCE2;
+			productRefGroup = DE53D0C223F9395400AEFCE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE53D0C023F9395400AEFCE2 /* UnivNoticer */,
+				DE53D0C923F9395400AEFCE2 /* UnivNoticerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE53D0BF23F9395400AEFCE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE53D0C823F9395400AEFCE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE53D0BD23F9395400AEFCE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE53D0DC23F9396B00AEFCE2 /* CommonProperty.swift in Sources */,
+				DE53D0DE23F93A9500AEFCE2 /* SoongsilUniv.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE53D0C623F9395400AEFCE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE53D0D023F9395400AEFCE2 /* UnivNoticerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE53D0CD23F9395400AEFCE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE53D0C023F9395400AEFCE2 /* UnivNoticer */;
+			targetProxy = DE53D0CC23F9395400AEFCE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE53D0D323F9395400AEFCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE53D0D423F9395400AEFCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE53D0D623F9395400AEFCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = UnivNoticer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.UnivNoticer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE53D0D723F9395400AEFCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = UnivNoticer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.UnivNoticer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE53D0D923F9395400AEFCE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				INFOPLIST_FILE = UnivNoticerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.UnivNoticerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE53D0DA23F9395400AEFCE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				INFOPLIST_FILE = UnivNoticerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.UnivNoticerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE53D0BB23F9395400AEFCE2 /* Build configuration list for PBXProject "UnivNoticer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE53D0D323F9395400AEFCE2 /* Debug */,
+				DE53D0D423F9395400AEFCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE53D0D523F9395400AEFCE2 /* Build configuration list for PBXNativeTarget "UnivNoticer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE53D0D623F9395400AEFCE2 /* Debug */,
+				DE53D0D723F9395400AEFCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE53D0D823F9395400AEFCE2 /* Build configuration list for PBXNativeTarget "UnivNoticerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE53D0D923F9395400AEFCE2 /* Debug */,
+				DE53D0DA23F9395400AEFCE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE53D0B823F9395400AEFCE2 /* Project object */;
+}
